@@ -1,9 +1,13 @@
 variable "name" {
-    default = "xray"
-  
+  description = "The name of the xray daemonset"
+  type        = string
+  default     = "xray"
+
 }
 
 variable "namespace" {
-    default = "kube-system"
-  
+  description = "The namespace to place the xray daemonset"
+  type        = string
+  default     = "kube-system"
+
 }
