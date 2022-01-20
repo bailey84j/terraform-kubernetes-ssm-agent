@@ -8,7 +8,7 @@ Terraform module which deploys AWS SSM
 
 ## Examples
 
-- [Standard](https://github.com/bailey84j/terraform-kubernetes-ssm-agent/tree/master/examples/standard): Deploying AWS Load Balancer Controller using the default settings
+- [Standard](https://github.com/bailey84j/terraform-kubernetes-ssm-agent/tree/master/examples/standard): Deploying SSM Agent using the default settings
 - [Custom](https://github.com/bailey84j/terraform-kubernetes-ssm-agent/tree/master/examples/custom): Customising the deployment to use a different name and namespace 
 
 ## Contributing
@@ -21,6 +21,7 @@ Full contributing [guidelines are covered here](https://github.com/bailey84j/ter
 
 | Name | Version |
 |------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.14.8 |
 | <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | >= 2.0 |
 
 ## Providers
