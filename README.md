@@ -21,6 +21,7 @@ Full contributing [guidelines are covered here](https://github.com/bailey84j/ter
 
 | Name | Version |
 |------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.14.8 |
 | <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | >= 2.0 |
 
 ## Providers
