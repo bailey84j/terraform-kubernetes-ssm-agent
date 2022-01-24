@@ -48,8 +48,9 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_name"></a> [name](#input\_name) | The name of the xray daemonset | `string` | `"xray"` | no |
-| <a name="input_namespace"></a> [namespace](#input\_namespace) | The namespace to place the xray daemonset | `string` | `"kube-system"` | no |
+| <a name="input_create_namespace"></a> [create\_namespace](#input\_create\_namespace) | Determines whether to create a new kubernetes namespace for the deployment | `bool` | `false` | no |
+| <a name="input_name"></a> [name](#input\_name) | The name of the ssm daemonset | `string` | `"xray"` | no |
+| <a name="input_namespace"></a> [namespace](#input\_namespace) | The namespace to place the daemonset | `string` | `"kube-system"` | no |
 
 ## Outputs
 
