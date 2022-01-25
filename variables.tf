@@ -1,7 +1,7 @@
 variable "name" {
   description = "The name of the ssm daemonset"
   type        = string
-  default     = "xray"
+  default     = "ssm"
 
 }
 
