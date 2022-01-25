@@ -23,12 +23,12 @@ provider "kubernetes" {
 }
 
 
-module "aws_lb_controller" {
+module "aws_ssm_agent" {
   source = "../../"
 
   create_namespace = true
 
-  name = "different-app-name"
+  name = "different-app-name-ssm"
 
-  namespace = "different-namespace"
+  namespace = "different-namespace-ssm"
 }

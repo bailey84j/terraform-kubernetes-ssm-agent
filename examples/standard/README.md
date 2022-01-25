@@ -12,6 +12,13 @@ Deploy AWS SSM Agent Deployment in Kubernetes Cluster using the standard setting
 To run this example you need to execute:
 
 ```bash
+
+export AWS_ACCESS_KEY_ID=""
+export AWS_SECRET_ACCESS_KEY=""
+export AWS_SESSION_TOKEN=""
+
+export TF_VAR_k8s_cluster_name="Test"
+
 $ terraform init
 $ terraform plan
 $ terraform apply
