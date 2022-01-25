@@ -43,7 +43,7 @@ $ terraform apply
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_aws_lb_controller"></a> [aws\_lb\_controller](#module\_aws\_lb\_controller) | ../../ | n/a |
+| <a name="module_aws_ssm_agent"></a> [aws\_ssm\_agent](#module\_aws\_ssm\_agent) | ../../ | n/a |
 
 ## Resources
 
