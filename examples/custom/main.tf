@@ -27,7 +27,7 @@ module "aws_lb_controller" {
   source = "../../"
 
   create_namespace = true
-  
+
   name = "different-app-name"
 
   namespace = "different-namespace"
